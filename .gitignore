@@ -1,1 +1,16 @@
-library_app/library_frontend/node_modules/.cache/tsconfig.tsbuildinfo
+# ===== Node / React =====
+node_modules/
+.cache/
+dist/
+build/
+
+# ===== Java / Spring Boot =====
+target/
+*.log
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== OS =====
+.DS_Store
